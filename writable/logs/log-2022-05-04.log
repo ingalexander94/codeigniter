@@ -1,0 +1,46 @@
+CRITICAL - 2022-05-04 23:17:16 --> Call to undefined method App\Models\Libro::sort
+#0 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\Model->__call('sort', Array)
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:20:33 --> Call to undefined method App\Models\Libro::sort
+#0 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\Model->__call('sort', Array)
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:20:36 --> Call to undefined method App\Models\Libro::sort
+#0 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\Model->__call('sort', Array)
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:20:41 --> Call to undefined method App\Models\Libro::sort
+#0 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\Model->__call('sort', Array)
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:20:44 --> Call to undefined method App\Models\Libro::sort
+#0 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\Model->__call('sort', Array)
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:24:59 --> Undefined variable $lbros
+#0 C:\xampp\htdocs\biblioteca\app\Views\libros\listar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\biblioteca\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('libros/listar', Array, true)
+#4 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(11): view('libros/listar', Array)
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(832): App\Controllers\Libros->index()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
